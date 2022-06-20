@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://assets/light.png" type="Texture" id=1]
+
+[node name="Light" type="Node2D"]
+__meta__ = {
+"_edit_vertical_guides_": [ 87.0 ]
+}
+
+[node name="Light2D" type="Light2D" parent="."]
+modulate = Color( 1, 0.631373, 0.631373, 1 )
+scale = Vector2( 0.103415, 0.103415 )
+texture = ExtResource( 1 )
